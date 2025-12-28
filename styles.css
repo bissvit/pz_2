@@ -32,6 +32,8 @@ a {
 
 .nav__link {
     color:#ffffff;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
 }
 
 .nav__link:hover {
@@ -56,7 +58,7 @@ a {
 
 .card--featured {
   background: #f8f9fa;
-  border-color: #2c5530;
+  border-color: #415167;
 }
 
 .card__title {
@@ -71,7 +73,7 @@ a {
     margin: 16px;
 }
 
-.card__article1 {
+.card__article {
     padding: 16px 4px;
 }
 
@@ -108,6 +110,24 @@ a {
     font-weight: 600;
 }
 
+.card__button:hover {
+    padding: 4px 12px;
+    border-radius: 15px;
+    color:#C7A17A;
+    background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.card__button:active {
+    padding: 4px 12px;
+    border-radius: 15px;
+    color:#ffffff;
+    background-color: #C7A17A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
 .card__button_navy {
     padding: 4px 12px;
     border-radius: 15px;
@@ -115,6 +135,36 @@ a {
     font-family: "Nunito", sans-serif;
     background-color: #ffffff;
     font-weight: 600;
+}
+
+.card__button_navy:hover {
+    padding: 4px 12px;
+    border-radius: 15px;
+    color:#ffffff;
+    font-family: "Nunito", sans-serif;
+    background-color: #92b1be;
+    font-weight: 600;
+}
+
+.card__button_navy:active {
+    padding: 4px 12px;
+    border-radius: 15px;
+    color:#215167;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+.card__span {
+    color:#C7A17A;
+    font-size: 1.5rem; 
+}
+
+.card__line {
+    text-decoration: line-through;
+    color:#215167;
+    font-size: 1.2rem;
+    padding: 7px;
 }
 
 #card0{}
@@ -128,3 +178,10 @@ a {
 #card4 {}
 
 #foot {}
+
+.footer  {
+    display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #ffffff;
+}
