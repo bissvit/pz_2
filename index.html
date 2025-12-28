@@ -5,102 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>рево-кофе</title>
     <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+</style>
 </head>
 <body>
-    <header>
-        <h1>YOUR PERSONALIZED COFFE</h1>
+    <header class = "header">
+        <h1 class="header__title">YOUR <strong class="personalized">PERSONALIZED</strong> COFFE</h1>
         <img src="assets/img/banner.png" alt="Баннер главной страницы">
-        <nav>
-            <ul>
+        <nav class="header__nav">
+            <ul class="nav__list">
                 <!-- <li><input type="image" src="/assets/icons/shopping-cart-3.png" name="button"></li> -->
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
+                <li class="nav__item nav__item--active"><a href="#">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#card1">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#card2">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#card3">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#card4">Навигационная ссылка</a></li> 
+                <li class="nav__item"><a class="nav__link" href="#foot">Навигационная ссылка</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Your Personalized Coffee COFFEE BUILD YOUR BASE</h2>
-            <div>
-                <article>
+        <section class="cards" id="card1">
+            <h2 class="cards__title">Your Personalized Coffee <strong class="highlight">COFFEE BUILD YOUR BASE</strong></h2>
+            <div class="card card--featured">
+                <article class="card__article1">
                     <img src="assets/icons/mag.png" alt="Иконка кофейни">
-                    <h3>Заголовок третьего уровня</h3>
-                    <p>Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
+                    <h3 class="card__title">Заголовок третьего уровня</h3>
+                    <p class="card__text">Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
                         производство, нанотехнологии и&nbsp;по&nbsp;сей день остаются уделом либералов</p>
                 </article>
-                <article>
+                <article class="card__article1">
                     <img src="assets/icons/sign.png" alt="Иконка вывески">
-                    <h3>Заголовок третьего уровня</h3>
-                    <p>Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
+                    <h3 class="card__title">Заголовок третьего уровня</h3>
+                    <p class="card__text">Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
                         производство, нанотехнологии и&nbsp;по&nbsp;сей день остаются уделом либералов</p>
                 </article>
-                <article>
+                <article class="card__article1">
                     <img src="assets/icons/beans.png" alt="Иконка зерен">
-                    <h3>Заголовок третьего уровня</h3>
-                    <p>Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
+                    <h3 class="card__title">Заголовок третьего уровня</h3>
+                    <p class="card__text">Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
                         производство, нанотехнологии и&nbsp;по&nbsp;сей день остаются уделом либералов</p>
                 </article>
-                <article>
+                <article class="card__article1">
                     <img src="assets/icons/machine.png" alt="Иконка кофеварки">
-                    <h3>Заголовок третьего уровня</h3>
-                    <p>Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
+                    <h3 class="card__title">Заголовок третьего уровня</h3>
+                    <p class="card__text">Картельные сговоры не&nbsp;допускают ситуации, при которой стремящиеся вытеснить традиционное 
                         производство, нанотехнологии и&nbsp;по&nbsp;сей день остаются уделом либералов</p>
                 </article>
             </div>
         </section>
 
-        <section>
-            <h2> Choose Your Favorite REVO COFFE!</h2>
-            <div>
-                <article>
+        <section class="cards" id="card2">
+            <h2 class="cards__title"> Choose Your Favorite <strong class="highlight">REVO COFFE</strong>!</h2>
+            <div class="card card--featured">
+                <article class="card__article1">
                     <img src="assets/img/coffe_yellow.png" alt="Картинка кофе Morning">
                     <span>99.000</span>
-                    <h3>REVO Morning</h3>
-                    <p>сладкое послевкусие, цветочный аромат</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <h3 class="card__title">REVO Morning</h3>
+                    <p class="card__text">сладкое послевкусие, цветочный аромат</p>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
 
-                <article>
+                <article class="card__article1">
                     <img src="assets/img/coffe_blue.png" alt="Картинка кофе Everyday">
                     <span>85.000</span>
-                    <h3>REVO Everyday</h3>
-                    <p>сбалансированный, горькое послевкусие, шоколадный вкус</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <h3 class="card__title">REVO Everyday</h3>
+                    <p class="card__text">сбалансированный, горькое послевкусие, шоколадный вкус</p>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
 
-                <article>
+                <article class="card__article1">
                     <img src="assets/img/coffe_orange.png" alt="Картинка кофе Origin">
                     <span>139.000</span>
-                    <h3>REVO Origin</h3>
-                    <p>сладкое послевкусие, легкая горечь, винно-кислый вкус</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <h3 class="card__title">REVO Origin</h3>
+                    <p class="card__text">сладкое послевкусие, легкая горечь, винно-кислый вкус</p>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
 
-                <article>
+                <article class="card__article1">
                     <img src="assets/img/coffe_brown.png" alt="Картинка кофе Classic">
                     <span>75.000</span>
-                    <h3>REVO Classic</h3>
-                    <p>насыщенный, горький, традиционный</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <h3 class="card__title">REVO Classic</h3>
+                    <p class="card__text">насыщенный, горький, традиционный</p>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
             </div>
         </section>
 
-        <section>
-            <h2>Best Gift For Best Friend GIFTSET</h2>
-            <article>
+        <section class="cards" id="card3">
+            <h2 class="cards__title">Best Gift For Best Friend <strong class="highlight">GIFTSET</strong></h2>
+            <article class="card__article1">
                 <img src="assets/img/gift.png" alt="Картинка подарка">
                 <span>285.000</span>
-                <h3>О подарочном наборе</h3>
-                <p>Ясность нашей позиции очевидна: убеждённость некоторых оппонентов влечет за&nbsp;собой процесс 
+                <h3 class="card__title">О подарочном наборе</h3>
+                <p class="card__text">Ясность нашей позиции очевидна: убеждённость некоторых оппонентов влечет за&nbsp;собой процесс 
                     внедрения и&nbsp;модернизации дальнейших направлений развития. Также как экономическая повестка 
                     сегодняшнего дня позволяет оценить значение новых принципов формирования материально-технической 
                     и&nbsp;кадровой базы. И&nbsp;нет сомнений, что сторонники тоталитаризма в&nbsp;науке набирают 
@@ -110,62 +114,62 @@
                 <div>
                     <img src="assets/icons/IC_coffee.png" alt="Иконка кофейных зерен">
                     <h4>Сорт зерен</h4>
-                    <p>Fine Robusta Blend</p>
+                    <p class="card__text">Fine Robusta Blend</p>
                 </div>
                 <div>
                     <img src="assets/icons/IC_Mountain.png" alt="Иконка гор">
                     <h4>Высота</h4>
-                    <p>700-800m</p>
+                    <p class="card__text">700-800m</p>
                 </div>
 
-                <button>купить сейчас</button>
-                <button>подробнее</button>
+                <button class="card__button">купить сейчас</button>
+                <button class="card__button_navy">подробнее</button>
 
             </article>
         </section>
 
-        <section>
-            <h2> Your Personalized Coffee COMBO</h2>
-            <div>
-                <article>
+        <section class="cards" id="card4">
+            <h2 class="cards__title"> Your Personalized Coffee <strong class="highlight">COMBO</strong></h2>
+            <div class="card card--featured">
+                <article class="card__article1">
                     <img src="assets/img/combo_brown.png" alt="Картинка кофе-комбо Classic">
                     <span>147.000</span>
                     <span>155.000</span>
-                    <h3>Combo REVO Classic</h3>
-                    <p>Как принято считать, многие известные личности, вне зависимости от&nbsp;их&nbsp;уровня, 
+                    <h3 class="card__title">Combo REVO Classic</h3>
+                    <p class="card__text">Как принято считать, многие известные личности, вне зависимости от&nbsp;их&nbsp;уровня, 
                         должны быть разоблачены.</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
 
-                <article>
+                <article class="card__article1">
                     <img src="assets/img/combo_blue.png" alt="Картинка кофе-комбо Everyday">
                     <span>156.000</span>
                     <span>165.000</span>
-                    <h3>Combo REVO Everyday</h3>
-                    <p>Как принято считать, многие известные личности, вне зависимости от&nbsp;их&nbsp;уровня, 
+                    <h3 class="card__title">Combo REVO Everyday</h3>
+                    <p class="card__text">Как принято считать, многие известные личности, вне зависимости от&nbsp;их&nbsp;уровня, 
                         должны быть разоблачены.</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
 
-                <article>
+                <article class="card__article1">
                     <img src="assets/img/combo_red.png" alt="Картинка кофе Honey">
                     <span>275.000</span>
                     <span>300.000</span>
-                    <h3>Combo REVO Honey</h3>
-                    <p>Как принято считать, многие известные личности, вне зависимости от&nbsp;их&nbsp;уровня, 
+                    <h3 class="card__title">Combo REVO Honey</h3>
+                    <p class="card__text">Как принято считать, многие известные личности, вне зависимости от&nbsp;их&nbsp;уровня, 
                         должны быть разоблачены.</p>
-                    <button>купить сейчас</button>
-                    <button>подробнее</button>
+                    <button class="card__button">купить сейчас</button>
+                    <button class="card__button_navy">подробнее</button>
                 </article>
 
             </div>
         </section>
         
     </main>
-    <footer>
-        <p>В&nbsp;целом, конечно, внедрение современных методик создаёт необходимость включения в&nbsp;производственный 
+    <footer id="foot">
+        <p class="card__text">В&nbsp;целом, конечно, внедрение современных методик создаёт необходимость включения в&nbsp;производственный 
             план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса направлений прогрессивного развития. 
             В&nbsp;рамках спецификации современных стандартов, интерактивные прототипы будут разоблачены. Повседневная 
             практика показывает, что укрепление и&nbsp;развитие внутренней структуры представляет собой интересный эксперимент 

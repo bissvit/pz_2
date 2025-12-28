@@ -1,0 +1,128 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #ffffff;
+}
+
+.header__nav {
+    background: #215167
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav__list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav__link {
+    color:#ffffff;
+}
+
+.nav__link:hover {
+    color:rgb(80, 148, 224);
+}
+
+.nav__link:active {
+    color: rgb(162, 212, 253);
+}
+
+.nav__item--active .nav__link {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.card--featured {
+  background: #f8f9fa;
+  border-color: #2c5530;
+}
+
+.card__title {
+    font-family: "Nunito", sans-serif;
+    color: #151D28;
+    font-weight: 800;
+}
+
+.cards__title {
+    color:#415167;
+    font-family: "Nunito", sans-serif;
+    margin: 16px;
+}
+
+.card__article1 {
+    padding: 16px 4px;
+}
+
+.card__text {
+    color:#415167;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    padding: 6px 0px;
+}
+
+.highlight {
+    font-weight: 1400;
+}
+
+.header__title {
+    font-family: "Nunito", sans-serif;
+    color:#415167;
+    font-size: 3.5rem; 
+    font-weight: 1400; 
+}
+
+.personalized {
+    background-color:#C7A17A;
+    color:#ffffff;
+    font-weight: 1400;
+}
+
+.card__button {
+    padding: 4px 12px;
+    border-radius: 15px;
+    color:#ffffff;
+    background-color: #C7A17A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.card__button_navy {
+    padding: 4px 12px;
+    border-radius: 15px;
+    color:#215167;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+#card1 {}
+
+#card2 {}
+
+#card3 {}
+
+#card4 {}
+
+#foot {}
