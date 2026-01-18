@@ -15,19 +15,38 @@ a {
   background: #ffffff;
 }
 
+.header__title {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    color: #415167;
+    font-size: 3.5rem;
+    font-weight: 1400;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
 .header__nav {
     background: #215167
 }
 
 .header__logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.header__img {
+    display: flex;
 }
 
 .nav__list {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    flex-direction: column;
 }
 
 .nav__link {
@@ -59,6 +78,9 @@ a {
 .card--featured {
   background: #f8f9fa;
   border-color: #415167;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: #ffffff;
 }
 
 .card__title {
@@ -88,12 +110,6 @@ a {
     font-weight: 1400;
 }
 
-.header__title {
-    font-family: "Nunito", sans-serif;
-    color:#415167;
-    font-size: 3.5rem; 
-    font-weight: 1400; 
-}
 
 .personalized {
     background-color:#C7A17A;
@@ -167,7 +183,7 @@ a {
     padding: 7px;
 }
 
-#card0{}
+#card0 {}
 
 #card1 {}
 
@@ -178,6 +194,7 @@ a {
 #card4 {}
 
 #foot {}
+
 
 .footer  {
     display: flex;
