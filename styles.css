@@ -232,3 +232,51 @@ a {
   padding: 1rem;
   background: #ffffff;
 }
+
+@media (max-width: 399) {
+    .header__title {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    color: #415167;
+    font-size: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #ffffff;
+    flex-wrap: wrap;
+}
+
+.card--featured1 {
+    background: #f8f9fa;
+    border-color: #415167;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: #ffffff;
+    align-items: center;
+    justify-items: center;
+}
+
+.card--featured2 {
+    background: #f8f9fa;
+    border-color: #415167;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    border: #ffffff;
+}
+
+.card--featured4 {
+  background: #f8f9fa;
+  border-color: #415167;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border: #ffffff;
+}
+
+
+}
