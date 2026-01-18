@@ -75,11 +75,38 @@ a {
   margin: 16px;
 }
 
-.card--featured {
+.card--featured1 {
+    background: #f8f9fa;
+    border-color: #415167;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: #ffffff;
+    align-items: center;
+    justify-items: center;
+}
+
+.card--featured2 {
   background: #f8f9fa;
   border-color: #415167;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 3fr);
+  border: #ffffff;
+}
+
+.card--featured3 {
+    background: #f8f9fa;
+    border-color: #415167;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: #ffffff;
+    align-items: center;
+}
+
+.card--featured4 {
+  background: #f8f9fa;
+  border-color: #415167;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   border: #ffffff;
 }
 
@@ -90,9 +117,12 @@ a {
 }
 
 .cards__title {
-    color:#415167;
+    display: flex;
+    color: #415167;
     font-family: "Nunito", sans-serif;
-    margin: 16px;
+    margin: 25px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card__article {
